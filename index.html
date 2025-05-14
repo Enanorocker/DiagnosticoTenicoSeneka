@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&NonBreakingSpace;</title>
+    <link rel="preload" href="CSS/styles.css" as="style">
+    <link href="CSS/styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <h1>Diagnostico Tecnico</h1>
+        <img src="IMG/Seneka.png" alt="Seneka Servicios Tecnologicos">
+    </header>
+    
+    <p id="datetime"></p>
+    
+    <main>
+        <p>Estimad@ <input class="Textfill" type="text" placeholder="Nombre de empleado o cliente"></p>
+        <p>En relación al servicio de mantenimiento/formateo de su equipo de computo le presentamos el siguiente reporte tecnico:</p>
+
+        <h2 class="datos_equipo">Datos del equipo</h2>
+        <div class="Datos">
+            <p>Equipo: <input class="Textfill" type="text" placeholder="Nombre del equipo"></p>
+            <p>Fecha de solicitud: <input class="Textfill" type="text" placeholder="Fecha"></p>
+            <p>Fecha de ingreso: <input class="Textfill" type="text" placeholder="Fecha"></p>
+            <p>Fecha de entrega: <input class="Textfill" type="text" placeholder="Fecha"></p>
+
+        </div>
+
+        <h2>Reporte</h2>
+        <div class="observaciones">
+            <p>Observaciones de entrada</p>
+            <input name="Observaciones" class="observacion" cols="30" rows="10" placeholder="Observaciones">
+        </div>
+
+        <div class="observaciones">
+            <p>Razon del mantenimiento / Falla Reportada</p>
+            <hr>
+            <input name="falla" class="observaciones" cols="30" rows="10" placeholder="Escriba aqui la falla reportada por el usuario o la razon del mantenimiento">
+        </div>
+
+        <div class="observaciones">
+            <p>Diagnostico o Razon de la falla</p>
+            <hr>
+            <input name="diagnostico" class="observaciones" cols="30" rows="10" placeholder="Diagnostico del problema. Si es un mantenimiento preventivo solo escribir MANTENIMIENTO">
+        </div>
+        
+        <div class="observaciones">
+            <p>Reparación o Cambios efectuados</p>
+            <hr>
+            <input name="cambios" class="observaciones" cols="30" rows="10" placeholder="Cambios que se hicieron en el equipo para su correcto funcionamiento">
+        </div>
+
+        <section>
+            Agradecemos su confianza y no tenga duda de contactarnos si surge alguna duda o comentario respecto al servicio, via correo electronico <strong>atencionacliente@senekati.com</strong> o a nuestro telefono <u>(667) 336-2390</u> por llamada o Whatsapp.
+        </section>
+
+    </main>
+</body>
+</html>
